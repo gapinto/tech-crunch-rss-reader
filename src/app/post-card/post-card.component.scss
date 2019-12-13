@@ -1,0 +1,54 @@
+$font-size: .8125rem;
+$line-height: 1.54;
+$lines-to-show: 3;
+
+.truncate {
+    display: -webkit-box;
+    max-width: 400px;
+    height: $font-size*$line-height*$lines-to-show; /* Fallback for non-webkit */
+    font-size: $font-size;
+    line-height: $line-height;
+    -webkit-line-clamp: $lines-to-show;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.post-card {
+    position: relative;
+    margin-top: 1em;
+    margin-bottom: 1.425em;
+    padding-top: 1.425em;
+    border-top: 2px solid #f1f1f1;
+    clear: both;
+    display: block;
+    cursor: pointer;
+
+    &:focus, &:hover {
+        opacity: .4;
+    }
+
+    .post-card-header {
+        .post-card-title {
+            margin: .2em 0;
+        }
+    }
+
+    .post-card-meta {
+        font-size: .8125rem;
+        font-family: aktiv-grotesk,sans-serif;
+        line-height: 1.54;
+    
+        .post-card-authors {
+            font-weight: 700;
+            line-height: 1.23;
+            color: #333;
+        }
+    
+        .post-card-publication-date {
+            .full-date-time {
+                color: #777;
+            }
+        }
+    }
+}
