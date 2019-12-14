@@ -25,6 +25,7 @@ $lines-to-show: 3;
 
     &:focus, &:hover {
         opacity: .4;
+        outline: 1px solid transparent;
     }
 
     .post-card-header {
