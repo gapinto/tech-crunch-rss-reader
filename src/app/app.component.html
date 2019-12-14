@@ -3,7 +3,27 @@
     <span>TechCrunch</span>
   </mat-toolbar-row>
 </mat-toolbar>
-<main class="content">
-  <app-post-card [post]="post"></app-post-card>
-  <app-post-card [post]="post"></app-post-card>
+<main class="main-container">
+  <div class="row">
+    <div class="column posts">
+      <app-post-card [post]="post"></app-post-card>
+      <app-post-card [post]="post"></app-post-card>
+      <app-post-card [post]="post"></app-post-card>
+      <app-post-card [post]="post"></app-post-card>
+    </div>
+    <div class="column post-full-content">
+      <p>
+        Essentially we just blew the row/columns of bootstrap out of the water with 20 lines of CSS. We have a way to create
+        row/column layouts quickly and since we use flexbox we barely have to worry about the layouts breaking, or anything
+        going wrong. It's easily adapted to a wide variety of uses and allows a large amount of customizability. What do
+        you think about flexbox? Have you tried it yet?
+      </p>
+      <p>
+        Essentially we just blew the row/columns of bootstrap out of the water with 20 lines of CSS. We have a way to create
+        row/column layouts quickly and since we use flexbox we barely have to worry about the layouts breaking, or anything
+        going wrong. It's easily adapted to a wide variety of uses and allows a large amount of customizability. What do
+        you think about flexbox? Have you tried it yet?
+      </p>
+    </div>
+  </div>
 </main>

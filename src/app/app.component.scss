@@ -1,7 +1,44 @@
+@import 'responsive.mixin.scss';
 
-.content {
-    width: 90%;
-    margin-left: 5%;
-    min-height: 80%;
+.main-container {
     position: relative;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+    justify-content: space-around
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.posts {
+    max-width: 35%;
+
+    @include for-phone-only {
+        max-width: 90%;
+    }
+}
+
+.post-full-content {
+    max-width: 57%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+
+    @include for-phone-only {
+        display: none;
+
+        &.visible {
+            display: block;
+        }
+    }
 }
