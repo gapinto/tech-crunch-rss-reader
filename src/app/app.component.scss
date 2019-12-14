@@ -4,30 +4,19 @@
     position: relative;
 }
 
-.row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    position: relative;
-    justify-content: space-around
-}
-
-.column {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-}
-
-.posts {
+.post-card-list-container {
     max-width: 35%;
 
     @include for-phone-only {
         max-width: 90%;
+
+        &.hidden-on-mobile {
+            display: none;
+        }
     }
 }
 
-.post-full-content {
+.full-post-content {
     max-width: 57%;
     position: -webkit-sticky;
     position: sticky;
@@ -37,8 +26,9 @@
     @include for-phone-only {
         display: none;
 
-        &.visible {
+        &.visible-on-mobile {
             display: block;
+            max-width: 90%;
         }
     }
 }

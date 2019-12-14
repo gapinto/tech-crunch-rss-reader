@@ -1,17 +1,21 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Post } from './shared/models/post';
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'tech-crunch-rss-reader';
-  post: Post;
+
+  posts: Post[];
+  selectedPost: Post;
 
   constructor() {
-    this.post = new Post(
+  }
+
+  ngOnInit() {
+    const post = new Post(
       'Pandora launches interactive voice ads',
       ['Guilherme Andrade'],
       new Date(),
@@ -20,6 +24,26 @@ export class AppComponent {
       The ads will then offer more information about the product or brand in question.`,
       ['Technology']
     );
+
+    const post3 = new Post(
+      'Pandora launches interactive voice ads',
+      ['Guilherme Andrade'],
+      new Date(),
+      `Luna Pandora has begun to test a new type of advertising format that allows listeners to respond to the ad by speaking aloud.
+      In the new ads, listeners are prompted to say “yes” after the ad asks a question and a tone plays.
+      The ads will then offer more information about the product or brand in question.`,
+      ['Technology']
+    );
+
+    this.posts = [ post, post, post3 ];
+  }
+
+  onSelectPost(post: Post) {
+    this.selectedPost = post;
+  }
+
+  onClose() {
+    this.selectedPost = null;
   }
 
 }

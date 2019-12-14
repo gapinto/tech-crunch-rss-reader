@@ -1,0 +1,5 @@
+<ul class="post-card-list">
+    <li *ngFor="let post of posts">
+        <app-post-card [post]="post" (click)="selectPost(post)"></app-post-card>
+    </li>
+</ul>

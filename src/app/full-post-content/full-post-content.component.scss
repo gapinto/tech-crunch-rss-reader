@@ -1,0 +1,11 @@
+@import 'responsive.mixin.scss';
+
+.close-full-post-content {
+    display: none;
+
+    @include for-phone-only {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 5px;
+    }
+}
