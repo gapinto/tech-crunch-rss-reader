@@ -22,12 +22,12 @@ export class AppComponent implements OnInit {
       `Pandora has begun to test a new type of advertising format that allows listeners to respond to the ad by speaking aloud.
       In the new ads, listeners are prompted to say “yes” after the ad asks a question and a tone plays.
       The ads will then offer more information about the product or brand in question.`,
-      ['Technology']
+      ['Music']
     );
 
-    const post3 = new Post(
+    const post2 = new Post(
       'Pandora launches interactive voice ads',
-      ['Guilherme Andrade'],
+      ['Luna Pinto'],
       new Date(),
       `Luna Pandora has begun to test a new type of advertising format that allows listeners to respond to the ad by speaking aloud.
       In the new ads, listeners are prompted to say “yes” after the ad asks a question and a tone plays.
@@ -35,7 +35,12 @@ export class AppComponent implements OnInit {
       ['Technology']
     );
 
-    this.posts = [ post, post, post3 ];
+    this.posts = [ post, post2 ];
+  }
+
+  onPostCarListFiltered(filteredPosts: Post[]) {
+    const [first] = filteredPosts.filter(post => this.selectedPost === post);
+    this.selectedPost = first;
   }
 
   onSelectPost(post: Post) {

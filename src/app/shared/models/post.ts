@@ -1,16 +1,16 @@
 export class Post {
     title: string;
-    authors: Array<string>;
+    authors: string[];
     pubdate: Date;
     description: string;
-    categories: Array<string>;
+    categories: string[];
 
     constructor(
         title: string,
-        authors: Array<string>,
+        authors: string[],
         pubdate: Date,
         description: string,
-        categories: Array<string>
+        categories: string[]
     ) {
         this.title = title;
         this.authors = authors;
