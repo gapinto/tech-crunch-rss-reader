@@ -1,5 +1,5 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
-import { Post } from '../shared/models/post';
+import { Post } from '../../shared/models/post';
 
 @Component({
   selector: 'app-post-card-list',
@@ -8,9 +8,9 @@ import { Post } from '../shared/models/post';
 })
 export class PostCardListComponent implements OnInit {
 
-  private categories: string[];
+  categories: string[];
 
-  private filteredPosts: Post[];
+  filteredPosts: Post[];
 
   @Input()
   posts: Post[];
@@ -33,7 +33,7 @@ export class PostCardListComponent implements OnInit {
   }
 
   onSelectCategory(category: string) {
-    this.filteredPosts = this.posts.filter(post => post.categories.includes(category));
+    this.filteredPosts = this.posts.filter(post => !category || post.categories.includes(category));
     this.postCardListFiltered.emit(this.filteredPosts);
   }
 

@@ -3,7 +3,7 @@
 
     <ul class="post-card-list">
         <li *ngFor="let post of filteredPosts">
-            <app-post-card [post]="post" (click)="selectPost(post)"></app-post-card>
+            <app-post-card [post]="post" [showDescription]="true" (click)="selectPost(post)"></app-post-card>
         </li>
     </ul>
 </section>

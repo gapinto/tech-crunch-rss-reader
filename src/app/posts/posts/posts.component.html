@@ -1,0 +1,17 @@
+<div class="row">
+    <div class="column post-card-list-container" [class.hidden-on-mobile]="selectedPost">
+        <app-post-card-list 
+        [posts]="posts" 
+        (postCardSelected)="onSelectPost($event)"
+        (postCardListFiltered)="onPostCarListFiltered($event)">
+        </app-post-card-list>
+    </div>
+    <div class="column full-post-content" [class.visible-on-mobile]="selectedPost">
+        <app-full-post-content 
+            *ngIf="selectedPost" 
+            [post]="selectedPost" 
+            [showDescription]="false"
+            (fullPostContentClosed)= "onClose()">
+        </app-full-post-content>
+    </div>
+</div>

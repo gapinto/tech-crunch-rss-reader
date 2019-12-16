@@ -1,0 +1,9 @@
+<div class="post-card-list-header">
+    <mat-form-field class="category-autocomplete">
+        <input type="text" placeholder="Enter Category" matInput [formControl]="form"
+                [matAutocomplete]="auto">
+        <mat-autocomplete #auto="matAutocomplete" (optionSelected)="onSelectOption($event)" (closed)="onPanelClosing()">
+                <mat-option *ngFor="let option of filteredOptions | async" [value]="option">{{option}}</mat-option>
+        </mat-autocomplete>
+    </mat-form-field>
+</div>

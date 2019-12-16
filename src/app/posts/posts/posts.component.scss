@@ -1,0 +1,42 @@
+@import 'responsive.mixin.scss';
+
+.post-card-list-container {
+    max-width: 35%;
+
+    @include for-phone-only {
+        max-width: 90%;
+
+        &.hidden-on-mobile {
+            display: none;
+        }
+    }
+}
+
+.full-post-content {
+    max-width: 57%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -100vh;
+    align-self: flex-start;
+    overflow-x: hidden;
+
+    a {
+        text-decoration: none!important;
+    }
+
+    img {
+        float: none;
+        width: 125%;
+        max-width: 125%;
+        margin-left: -12.5%;
+    }
+
+    @include for-phone-only {
+        display: none;
+
+        &.visible-on-mobile {
+            display: block;
+            max-width: 90%;
+        }
+    }
+}
