@@ -1,6 +1,5 @@
 import { NgModule, Pipe } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Post } from './models/post';
 import {
   MatToolbarModule,
   MatCardModule,

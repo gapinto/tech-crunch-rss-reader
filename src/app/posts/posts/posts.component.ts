@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Post } from '../../shared/models/post';
+import { Post } from '../models/post';
 import { HttpResponse } from '@angular/common/http';
 import { PostService } from '../services/post.service';
 import { map } from 'rxjs/operators';

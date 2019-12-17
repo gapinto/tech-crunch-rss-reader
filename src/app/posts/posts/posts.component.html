@@ -9,8 +9,7 @@
     <div class="column full-post-content" [class.visible-on-mobile]="selectedPost">
         <app-full-post-content 
             *ngIf="selectedPost" 
-            [post]="selectedPost" 
-            [showDescription]="false"
+            [post]="selectedPost"
             (fullPostContentClosed)= "onClose()">
         </app-full-post-content>
     </div>

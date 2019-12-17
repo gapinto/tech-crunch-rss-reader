@@ -1,5 +1,5 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
-import { Post } from '../../shared/models/post';
+import { Post } from '../models/post';
 
 @Component({
   selector: 'app-full-post-content',
@@ -10,9 +10,6 @@ export class FullPostContentComponent {
 
   @Input()
   post: Post;
-
-  @Input()
-  showDescription: true;
 
   @Output()
   fullPostContentClosed: EventEmitter<Post> = new EventEmitter();

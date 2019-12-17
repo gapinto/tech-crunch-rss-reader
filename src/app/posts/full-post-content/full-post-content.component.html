@@ -1,7 +1,7 @@
 <div class="close-full-post-content">
-    <mat-icon (click)="close()">close</mat-icon>
+    <mat-icon (click)="close()" class="close">close</mat-icon>
 </div>
 
-<app-post-card [showDescription]="showDescription" [post]="post"></app-post-card>
+<app-post-card [showDescription]="false" [post]="post"></app-post-card>
 
-<span [innerHTML]="post.encondedContent | sanitizeHtml"></span>
+<span class="encodedContent" [innerHTML]="post.encodedContent | sanitizeHtml"></span>

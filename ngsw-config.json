@@ -25,5 +25,19 @@
         ]
       }
     }
+  ],
+  "dataGroups": [
+    {
+      "name": "api-tech-crunch-rss-reader",
+      "urls": [
+        "http://0.0.0.0:4000/api/posts"
+      ],
+      "cacheConfig": {
+        "strategy": "freshness",
+        "timeout": "6s",
+        "maxSize": 100,
+        "maxAge": "1h"
+      }
+    }
   ]
 }

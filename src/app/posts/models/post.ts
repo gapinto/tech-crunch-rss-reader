@@ -4,7 +4,7 @@ export class Post {
     creator: string;
     pubDate: Date;
     description: string;
-    encondedContent: string;
+    encodedContent: string;
     categories: string[];
 
     constructor(
@@ -13,7 +13,7 @@ export class Post {
         creator: string,
         pubDate: Date,
         description: string,
-        encondedContent: string,
+        encodedContent: string,
         categories: string[]
     ) {
         this.title = title;

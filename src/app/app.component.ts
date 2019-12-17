@@ -5,7 +5,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'tech-crunch-rss-reader';
 
   constructor() {}
 

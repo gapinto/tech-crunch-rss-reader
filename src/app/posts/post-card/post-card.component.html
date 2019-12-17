@@ -2,12 +2,13 @@
     <header class="post-card-header">
         <h2 class="post-card-title">{{post.title}}</h2>
         <div class="post-card-meta">
-        <div class="post-card-creator">{{post.creator}}</div>
-        <div class="post-card-publication-date">
-            <time class="full-date-time" pubDate datetime="2019-12-12T19:00:35">
-                {{post.pubDate | date:'shortTime'}} <span class="full-date-time__separator">•</span> {{post.pubDate | date }}
-            </time>
-        </div>
+            <div class="post-card-creator">{{post.creator}}</div>
+            <div class="post-card-publication-date">
+                <time class="full-date-time" pubDate [dateTime]="post.pubDate">
+                    {{post.pubDate | date:'shortTime'}}
+                    <span class="full-date-time__separator">•</span> {{post.pubDate | date }}
+                </time>
+            </div>
         </div>
     </header>
     <section class="post-card-content truncate" *ngIf="showDescription">
