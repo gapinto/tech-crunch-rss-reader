@@ -30,7 +30,7 @@
     {
       "name": "api-tech-crunch-rss-reader",
       "urls": [
-        "http://0.0.0.0:4000/api/posts"
+        "https://dmdyyxzin2.execute-api.us-east-2.amazonaws.com/test"
       ],
       "cacheConfig": {
         "strategy": "freshness",

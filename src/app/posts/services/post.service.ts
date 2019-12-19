@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Post } from '../models/post';
-import { HttpResponse, HttpClient } from '@angular/common/http';
+import { HttpResponse, HttpClient, HttpHeaders } from '@angular/common/http';
 
 import { environment } from '../../../environments/environment';
 
@@ -15,6 +15,8 @@ export class PostService {
   constructor(private http: HttpClient) { }
 
   findAll(): Observable<HttpResponse<Post[]>> {
-      return this.http.get<Post[]>(`${this.baseUrl}/posts`, { observe: 'response' });
+    return this.http.get<Post[]>(`${this.baseUrl}/posts`, {
+      observe: 'response'
+    });
   }
 }

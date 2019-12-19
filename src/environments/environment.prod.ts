@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  baseUrl: 'http://0.0.0.0:4000/api'
+  baseUrl: 'https://dmdyyxzin2.execute-api.us-east-2.amazonaws.com/test'
 };
