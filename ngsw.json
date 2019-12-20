@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1576806927815,
+  "timestamp": 1576807213859,
   "index": "/tech-crunch-rss-reader/index.html",
   "assetGroups": [
     {
@@ -12,8 +12,8 @@
         "/tech-crunch-rss-reader/5-es5.8188c961aedd7449e206.js",
         "/tech-crunch-rss-reader/favicon.ico",
         "/tech-crunch-rss-reader/index.html",
-        "/tech-crunch-rss-reader/main-es2015.9e4efc361a1e0162ba85.js",
-        "/tech-crunch-rss-reader/main-es5.9e4efc361a1e0162ba85.js",
+        "/tech-crunch-rss-reader/main-es2015.b98acae655c8b97c26f7.js",
+        "/tech-crunch-rss-reader/main-es5.b98acae655c8b97c26f7.js",
         "/tech-crunch-rss-reader/manifest.webmanifest",
         "/tech-crunch-rss-reader/polyfills-es2015.2987770fde9daa1d8a2e.js",
         "/tech-crunch-rss-reader/polyfills-es5.6696c533341b95a3d617.js",
@@ -67,10 +67,10 @@
     "/tech-crunch-rss-reader/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/tech-crunch-rss-reader/assets/styles/responsive.mixin.scss": "568715e361a743effab46d18ae65d44cf5cf539e",
     "/tech-crunch-rss-reader/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/tech-crunch-rss-reader/index.html": "5bbeb325de69c29da1cc85a37d820072c4fe7639",
-    "/tech-crunch-rss-reader/main-es2015.9e4efc361a1e0162ba85.js": "7eddf5ff20c07dafb7c4d089eab7caad88ec5b1f",
-    "/tech-crunch-rss-reader/main-es5.9e4efc361a1e0162ba85.js": "0c67e95979dd0f4a5db54250d577b2a687afaa68",
-    "/tech-crunch-rss-reader/manifest.webmanifest": "b73706438d35edc31dc8103b75be684fbcd5c554",
+    "/tech-crunch-rss-reader/index.html": "8bd20f3f3c52c191ad74a07f3ce12a25aa5fd541",
+    "/tech-crunch-rss-reader/main-es2015.b98acae655c8b97c26f7.js": "6e28c4816e3f06e2805246d16cb451286e870674",
+    "/tech-crunch-rss-reader/main-es5.b98acae655c8b97c26f7.js": "98de2c5b4f784b62ac00b7bc348f26b4bf708bad",
+    "/tech-crunch-rss-reader/manifest.webmanifest": "c2424396ce712579c9073d5bf870f2bd08a26def",
     "/tech-crunch-rss-reader/polyfills-es2015.2987770fde9daa1d8a2e.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
     "/tech-crunch-rss-reader/polyfills-es5.6696c533341b95a3d617.js": "6bff0c03e05bb347d213ad1b3674045eb892d189",
     "/tech-crunch-rss-reader/runtime-es2015.37073ad1d9f65590f550.js": "04e76844175165b68c9fd55967bd0e616166f781",
