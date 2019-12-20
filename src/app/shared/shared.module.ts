@@ -12,7 +12,6 @@ import {
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { SanitizeHtmlPipe } from './pipes/sanitize-html.pipe';
-import { HttpInterceptorCors } from './HttpInterceptorCors';
 
 const MatModules = [
   MatToolbarModule,
@@ -39,11 +38,6 @@ const MatModules = [
     ReactiveFormsModule,
     HttpClientModule,
     SanitizeHtmlPipe,
-  ],
-  providers: [
-    { provide: HTTP_INTERCEPTORS,
-      useClass: HttpInterceptorCors,
-      multi: true}
   ]
 })
 export class SharedModule { }

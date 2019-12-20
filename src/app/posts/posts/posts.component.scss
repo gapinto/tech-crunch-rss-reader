@@ -16,9 +16,10 @@
     max-width: 57%;
     position: -webkit-sticky;
     position: sticky;
-    top: -100vh;
+    top: -70vh;
     align-self: flex-start;
     overflow-x: hidden;
+    overflow-y: hidden;
 
     a {
         text-decoration: none!important;

@@ -17,7 +17,7 @@ export class PostsResolve implements Resolve<Post[]> {
       .pipe(
         map((response: any) => response.body),
         catchError(err => {
-          return of(err);
+          return of([]);
         })
       );
   }

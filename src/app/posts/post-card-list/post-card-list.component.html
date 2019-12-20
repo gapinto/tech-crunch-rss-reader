@@ -5,7 +5,8 @@
         <li *ngFor="let post of filteredPosts">
             <app-post-card 
                 [post]="post" 
-                [showDescription]="true" 
+                [showDescription]="true"
+                [isSelectable]="true" 
                 (click)="selectPost(post)">
             </app-post-card>
         </li>

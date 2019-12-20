@@ -7,6 +7,7 @@ import { environment } from '../environments/environment';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SharedModule } from './shared/shared.module';
 import { PostModule } from './posts/posts.module';
+import { DeviceDetectorModule } from 'ngx-device-detector';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { PostModule } from './posts/posts.module';
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
     BrowserAnimationsModule,
     SharedModule,
-    PostModule
+    PostModule,
+    DeviceDetectorModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]

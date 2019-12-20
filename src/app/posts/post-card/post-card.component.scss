@@ -23,9 +23,13 @@ $lines-to-show: 3;
     display: block;
     cursor: pointer;
 
-    &:focus, &:hover {
-        opacity: .4;
-        outline: 1px solid transparent;
+    &.selectable {
+        &:focus, &:hover {
+            background-color: #3f51b5;
+            opacity: 0.5;
+            color: white;
+            outline: 1px solid transparent;
+        }
     }
 
     .post-card-header {

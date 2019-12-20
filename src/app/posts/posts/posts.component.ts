@@ -4,6 +4,7 @@ import { HttpResponse } from '@angular/common/http';
 import { PostService } from '../services/post.service';
 import { map } from 'rxjs/operators';
 import { ActivatedRoute } from '@angular/router';
+import { DeviceDetectorService } from 'ngx-device-detector';
 
 @Component({
   selector: 'app-posts',
@@ -18,13 +19,22 @@ export class PostsComponent implements OnInit {
   constructor(
     private postService: PostService,
     private activatedRoute: ActivatedRoute,
+    private deviceService: DeviceDetectorService,
   ) {
   }
 
   ngOnInit() {
     this.activatedRoute.data.subscribe(({ posts }) => {
       this.posts = posts || [];
-  });
+      this.selectFirstPost();
+    });
+  }
+
+  selectFirstPost() {
+    if (this.deviceService.isDesktop) {
+      const [first] = this.posts;
+      this.selectedPost = first;
+    }
   }
 
   onPostCarListFiltered(filteredPosts: Post[]) {

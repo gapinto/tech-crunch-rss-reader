@@ -14,6 +14,9 @@ export class PostCardComponent implements OnInit {
   @Input()
   showDescription = true;
 
+  @Input()
+  isSelectable = false;
+
   ngOnInit() {
   }
 }
