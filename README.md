@@ -14,7 +14,15 @@ page.
 ## Live demo
 https://gapinto.github.io/tech-crunch-rss-reader/posts
 
-## Develop requirements
+## Desktop Mode
+
+![desktop mode](https://github.com/gapinto/tech-crunch-rss-reader/raw/master/images/desktop-mode.png)
+
+## Mobile Mode
+![mobile mode list](https://github.com/gapinto/tech-crunch-rss-reader/blob/master/images/mobile-mode-1.png)
+![mobile mode list](https://github.com/gapinto/tech-crunch-rss-reader/blob/master/images/mobile-mode-2.png)
+
+## Development Requirements
 * Install the anglar CLI
 ```
 npm install -g @angular/cli
