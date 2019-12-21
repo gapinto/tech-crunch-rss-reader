@@ -31,7 +31,7 @@ export class PostsComponent implements OnInit {
   }
 
   selectFirstPost() {
-    if (this.deviceService.isDesktop) {
+    if (this.deviceService.isDesktop()) {
       const [first] = this.posts;
       this.selectedPost = first;
     }
