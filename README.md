@@ -22,6 +22,9 @@ https://gapinto.github.io/tech-crunch-rss-reader/posts
 ![mobile mode list](https://github.com/gapinto/tech-crunch-rss-reader/blob/master/images/mobile-mode-1.png)
 ![mobile mode list](https://github.com/gapinto/tech-crunch-rss-reader/blob/master/images/mobile-mode-2.png)
 
+## Test coverage
+![covge](https://github.com/gapinto/tech-crunch-rss-reader/raw/master/images/coverage.png)
+
 ## Development Requirements
 * Install the anglar CLI
 ```
