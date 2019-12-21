@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1576925049369,
+  "timestamp": 1576928400571,
   "index": "/tech-crunch-rss-reader/index.html",
   "assetGroups": [
     {
@@ -60,7 +60,7 @@
     "/tech-crunch-rss-reader/index.html": "911f10c1ba88a3c0cc2f2be777f389b5104f4478",
     "/tech-crunch-rss-reader/main-es2015.5a84ffe5325c951dedbd.js": "630e77a21657c4cd13f1646907ff8a8d7450c0c8",
     "/tech-crunch-rss-reader/main-es5.5a84ffe5325c951dedbd.js": "721a6770dc1458200c46ae7dcc193b0e905b15ef",
-    "/tech-crunch-rss-reader/manifest.webmanifest": "d0d50f28a65cd5c2cc6e5ff641c2794d8c2442b9",
+    "/tech-crunch-rss-reader/manifest.webmanifest": "f8842ce9de0d4cd39fb058273d0aa5ecd5cc389b",
     "/tech-crunch-rss-reader/polyfills-es2015.2987770fde9daa1d8a2e.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
     "/tech-crunch-rss-reader/polyfills-es5.6696c533341b95a3d617.js": "6bff0c03e05bb347d213ad1b3674045eb892d189",
     "/tech-crunch-rss-reader/runtime-es2015.37073ad1d9f65590f550.js": "04e76844175165b68c9fd55967bd0e616166f781",
