@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1577211380092,
+  "timestamp": 1577211698773,
   "index": "https://gapinto.github.io/tech-crunch-rss-reader/index.html",
   "assetGroups": [
     {
@@ -76,7 +76,7 @@
     "https://gapinto.github.io/tech-crunch-rss-reader/index.html": "4a14f1862a28f64574a7831eebed8c91cf1fe15c",
     "https://gapinto.github.io/tech-crunch-rss-reader/main-es2015.5a84ffe5325c951dedbd.js": "630e77a21657c4cd13f1646907ff8a8d7450c0c8",
     "https://gapinto.github.io/tech-crunch-rss-reader/main-es5.5a84ffe5325c951dedbd.js": "721a6770dc1458200c46ae7dcc193b0e905b15ef",
-    "https://gapinto.github.io/tech-crunch-rss-reader/manifest.webmanifest": "c6570451b41f61afade8ed1311815399e0cf9f29",
+    "https://gapinto.github.io/tech-crunch-rss-reader/manifest.webmanifest": "8181583649d5568369cfd9cd4fc5166e9511c883",
     "https://gapinto.github.io/tech-crunch-rss-reader/polyfills-es2015.2987770fde9daa1d8a2e.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
     "https://gapinto.github.io/tech-crunch-rss-reader/polyfills-es5.6696c533341b95a3d617.js": "6bff0c03e05bb347d213ad1b3674045eb892d189",
     "https://gapinto.github.io/tech-crunch-rss-reader/runtime-es2015.37073ad1d9f65590f550.js": "04e76844175165b68c9fd55967bd0e616166f781",
