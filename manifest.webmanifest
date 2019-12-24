@@ -5,7 +5,7 @@
   "background_color": "#fafafa",
   "display": "standalone",
   "scope": "/tech-crunch-rss-reader/",
-  "start_url": "/tech-crunch-rss-reader/",
+  "start_url": "https://gapinto.github.io/tech-crunch-rss-reader/",
   "icons":  [
     {
       "src": "assets/icons/icon-72x72.png",
