@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1577280512521,
+  "timestamp": 1577280962244,
   "index": "/tech-crunch-rss-reader/index.html",
   "assetGroups": [
     {
@@ -12,8 +12,8 @@
         "/tech-crunch-rss-reader/5-es5.ef920abbb6972ec793fa.js",
         "/tech-crunch-rss-reader/favicon.ico",
         "/tech-crunch-rss-reader/index.html",
-        "/tech-crunch-rss-reader/main-es2015.09ce22ef83c40bf790da.js",
-        "/tech-crunch-rss-reader/main-es5.09ce22ef83c40bf790da.js",
+        "/tech-crunch-rss-reader/main-es2015.5c3efe23c66ab54c9abb.js",
+        "/tech-crunch-rss-reader/main-es5.5c3efe23c66ab54c9abb.js",
         "/tech-crunch-rss-reader/manifest.webmanifest",
         "/tech-crunch-rss-reader/polyfills-es2015.2987770fde9daa1d8a2e.js",
         "/tech-crunch-rss-reader/polyfills-es5.6696c533341b95a3d617.js",
@@ -73,9 +73,9 @@
     "/tech-crunch-rss-reader/assets/icons/safari-pinned-tab.svg": "9002eadd46dba6ead222f0fca9d9df7211fb6be1",
     "/tech-crunch-rss-reader/assets/styles/responsive.mixin.scss": "568715e361a743effab46d18ae65d44cf5cf539e",
     "/tech-crunch-rss-reader/favicon.ico": "928622b8329ccf1fb0295f9749689e8d118d6e04",
-    "/tech-crunch-rss-reader/index.html": "404c00803ebdebf5fcd7bab6920d2ee0b0e05e2e",
-    "/tech-crunch-rss-reader/main-es2015.09ce22ef83c40bf790da.js": "969c77db4c35c4ae7eecdf04d9da952a33e4587e",
-    "/tech-crunch-rss-reader/main-es5.09ce22ef83c40bf790da.js": "abe02a3159e67d3a13032d42c154e82066e6478b",
+    "/tech-crunch-rss-reader/index.html": "27946c9221f37f9a80cc3900ec078b77228cd565",
+    "/tech-crunch-rss-reader/main-es2015.5c3efe23c66ab54c9abb.js": "8bfbb547a56003302b5007fe026e00ba783dc4a5",
+    "/tech-crunch-rss-reader/main-es5.5c3efe23c66ab54c9abb.js": "d6b2da05e3c886c03920cddc2456808afd0e15d9",
     "/tech-crunch-rss-reader/manifest.webmanifest": "81c037934f2495fc8bdd3c5446b665cb86d5b722",
     "/tech-crunch-rss-reader/polyfills-es2015.2987770fde9daa1d8a2e.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
     "/tech-crunch-rss-reader/polyfills-es5.6696c533341b95a3d617.js": "6bff0c03e05bb347d213ad1b3674045eb892d189",
