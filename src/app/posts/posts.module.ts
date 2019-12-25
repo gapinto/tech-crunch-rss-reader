@@ -26,8 +26,8 @@ import { environment } from '../../environments/environment';
   ],
   imports: [
     CommonModule,
+    ServiceWorkerModule.register('./ngsw-worker.js', { enabled: environment.production }),
     PostsRoutingModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production, registrationStrategy: 'registerImmediately' }),
     SharedModule
   ],
 })
