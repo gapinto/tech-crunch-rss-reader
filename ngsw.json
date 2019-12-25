@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1577284156600,
+  "timestamp": 1577287627814,
   "index": "/tech-crunch-rss-reader/index.html",
   "assetGroups": [
     {
@@ -8,17 +8,17 @@
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "/tech-crunch-rss-reader/5-es2015.d502f2f4df2bc8d636ed.js",
-        "/tech-crunch-rss-reader/5-es5.d502f2f4df2bc8d636ed.js",
+        "/tech-crunch-rss-reader/5-es2015.b7f5ab75d185e07d2201.js",
+        "/tech-crunch-rss-reader/5-es5.b7f5ab75d185e07d2201.js",
         "/tech-crunch-rss-reader/favicon.ico",
         "/tech-crunch-rss-reader/index.html",
-        "/tech-crunch-rss-reader/main-es2015.f27de3ea60738565c795.js",
-        "/tech-crunch-rss-reader/main-es5.f27de3ea60738565c795.js",
+        "/tech-crunch-rss-reader/main-es2015.e4d883ded77a55d30e92.js",
+        "/tech-crunch-rss-reader/main-es5.e4d883ded77a55d30e92.js",
         "/tech-crunch-rss-reader/manifest.webmanifest",
         "/tech-crunch-rss-reader/polyfills-es2015.2987770fde9daa1d8a2e.js",
         "/tech-crunch-rss-reader/polyfills-es5.6696c533341b95a3d617.js",
-        "/tech-crunch-rss-reader/runtime-es2015.c3c12c89f6d036a44114.js",
-        "/tech-crunch-rss-reader/runtime-es5.c3c12c89f6d036a44114.js",
+        "/tech-crunch-rss-reader/runtime-es2015.103ae6c285dba3a07b11.js",
+        "/tech-crunch-rss-reader/runtime-es5.103ae6c285dba3a07b11.js",
         "/tech-crunch-rss-reader/styles.c5712781c9fded4a9620.css"
       ],
       "patterns": []
@@ -58,8 +58,8 @@
     }
   ],
   "hashTable": {
-    "/tech-crunch-rss-reader/5-es2015.d502f2f4df2bc8d636ed.js": "103fb64077877315b44aba73bc6ac05017dd1dc6",
-    "/tech-crunch-rss-reader/5-es5.d502f2f4df2bc8d636ed.js": "103fb64077877315b44aba73bc6ac05017dd1dc6",
+    "/tech-crunch-rss-reader/5-es2015.b7f5ab75d185e07d2201.js": "0e8627806838c37549a1892d2afe43ce7a21823d",
+    "/tech-crunch-rss-reader/5-es5.b7f5ab75d185e07d2201.js": "0e8627806838c37549a1892d2afe43ce7a21823d",
     "/tech-crunch-rss-reader/assets/icons/android-chrome-192x192.png": "b52916d7d1881316e0b9af47d3274c358879e1bf",
     "/tech-crunch-rss-reader/assets/icons/apple-touch-icon.png": "7e4d4b198008e756b4a2299e2b2a63d345b616bc",
     "/tech-crunch-rss-reader/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
@@ -73,14 +73,14 @@
     "/tech-crunch-rss-reader/assets/icons/safari-pinned-tab.svg": "9002eadd46dba6ead222f0fca9d9df7211fb6be1",
     "/tech-crunch-rss-reader/assets/styles/responsive.mixin.scss": "568715e361a743effab46d18ae65d44cf5cf539e",
     "/tech-crunch-rss-reader/favicon.ico": "928622b8329ccf1fb0295f9749689e8d118d6e04",
-    "/tech-crunch-rss-reader/index.html": "1242abae7b49b06dbe958e89300a728e64185e66",
-    "/tech-crunch-rss-reader/main-es2015.f27de3ea60738565c795.js": "b91ec4e5669ec5b7948a2df01e65e276e4f24e37",
-    "/tech-crunch-rss-reader/main-es5.f27de3ea60738565c795.js": "70c4e68179b1f315cf416bc5e50dd5e569347d33",
+    "/tech-crunch-rss-reader/index.html": "8c1fa10121438d1390f6ce3ebc3bcd494da73589",
+    "/tech-crunch-rss-reader/main-es2015.e4d883ded77a55d30e92.js": "2098a0d70445adf798ef8a6a672688299a614fc5",
+    "/tech-crunch-rss-reader/main-es5.e4d883ded77a55d30e92.js": "cb5cbdf11f3200493227dc95afc742636e75d4ac",
     "/tech-crunch-rss-reader/manifest.webmanifest": "81c037934f2495fc8bdd3c5446b665cb86d5b722",
     "/tech-crunch-rss-reader/polyfills-es2015.2987770fde9daa1d8a2e.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
     "/tech-crunch-rss-reader/polyfills-es5.6696c533341b95a3d617.js": "6bff0c03e05bb347d213ad1b3674045eb892d189",
-    "/tech-crunch-rss-reader/runtime-es2015.c3c12c89f6d036a44114.js": "b9796fb9182bad81433a594585999a9bfcf5e83e",
-    "/tech-crunch-rss-reader/runtime-es5.c3c12c89f6d036a44114.js": "8201c600835cee9cd08bd74e3c33627ca8620eaa",
+    "/tech-crunch-rss-reader/runtime-es2015.103ae6c285dba3a07b11.js": "07152213a3592e131d1cf0dc6def33de307c209a",
+    "/tech-crunch-rss-reader/runtime-es5.103ae6c285dba3a07b11.js": "6cdb683c1e4a85afedd71e1e939158f1d3f2e432",
     "/tech-crunch-rss-reader/styles.c5712781c9fded4a9620.css": "14c671bb1f932d13be02e7b6bacc77e4cad4ca62"
   },
   "navigationUrls": [
