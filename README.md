@@ -45,11 +45,7 @@ ng test --code-coverage
 * Build
 ```
 ng build --prod --base-href /tech-crunch-rss-reader/
-ngh --dir dist/tech-crunch-rss-reader
 ```
-Unfortunately angular is generating the `/dist` folder without update de base path, I have spent a lot of time to figure it out, so you should update it manually.
-1. Open the `/home/guilherme/workspace/tech-crunch-rss-reader/dist/index.html`
-2. Update de base url to `<base href="/tech-crunch-rss-reader/">`
 
 * Deploy
 After the build, at the first time you shoul instal the `angular-cli-ghpages` globally:
