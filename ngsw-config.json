@@ -30,7 +30,7 @@
     {
       "name": "api-tech-crunch-rss-reader",
       "urls": [
-        "**/test/api/**"
+        "https://**/test/api/**"
       ],
       "cacheConfig": {
         "strategy": "freshness",
