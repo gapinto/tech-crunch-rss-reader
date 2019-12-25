@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1577288238913,
+  "timestamp": 1577303524085,
   "index": "/tech-crunch-rss-reader/index.html",
   "assetGroups": [
     {
@@ -8,16 +8,18 @@
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
+        "/tech-crunch-rss-reader/5-es2015.b7f5ab75d185e07d2201.js",
+        "/tech-crunch-rss-reader/5-es5.b7f5ab75d185e07d2201.js",
         "/tech-crunch-rss-reader/favicon.ico",
         "/tech-crunch-rss-reader/index.html",
-        "/tech-crunch-rss-reader/main-es2015.ff6d6d22a770ba9b0db1.js",
-        "/tech-crunch-rss-reader/main-es5.ff6d6d22a770ba9b0db1.js",
+        "/tech-crunch-rss-reader/main-es2015.d266902099ddf9ecdc96.js",
+        "/tech-crunch-rss-reader/main-es5.d266902099ddf9ecdc96.js",
         "/tech-crunch-rss-reader/manifest.webmanifest",
         "/tech-crunch-rss-reader/polyfills-es2015.2987770fde9daa1d8a2e.js",
         "/tech-crunch-rss-reader/polyfills-es5.6696c533341b95a3d617.js",
-        "/tech-crunch-rss-reader/runtime-es2015.edb2fcf2778e7bf1d426.js",
-        "/tech-crunch-rss-reader/runtime-es5.edb2fcf2778e7bf1d426.js",
-        "/tech-crunch-rss-reader/styles.c5712781c9fded4a9620.css"
+        "/tech-crunch-rss-reader/runtime-es2015.103ae6c285dba3a07b11.js",
+        "/tech-crunch-rss-reader/runtime-es5.103ae6c285dba3a07b11.js",
+        "/tech-crunch-rss-reader/styles.fa2cfed30fb589dbd811.css"
       ],
       "patterns": []
     },
@@ -56,6 +58,8 @@
     }
   ],
   "hashTable": {
+    "/tech-crunch-rss-reader/5-es2015.b7f5ab75d185e07d2201.js": "0e8627806838c37549a1892d2afe43ce7a21823d",
+    "/tech-crunch-rss-reader/5-es5.b7f5ab75d185e07d2201.js": "0e8627806838c37549a1892d2afe43ce7a21823d",
     "/tech-crunch-rss-reader/assets/icons/android-chrome-192x192.png": "b52916d7d1881316e0b9af47d3274c358879e1bf",
     "/tech-crunch-rss-reader/assets/icons/apple-touch-icon.png": "7e4d4b198008e756b4a2299e2b2a63d345b616bc",
     "/tech-crunch-rss-reader/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
@@ -69,15 +73,15 @@
     "/tech-crunch-rss-reader/assets/icons/safari-pinned-tab.svg": "9002eadd46dba6ead222f0fca9d9df7211fb6be1",
     "/tech-crunch-rss-reader/assets/styles/responsive.mixin.scss": "568715e361a743effab46d18ae65d44cf5cf539e",
     "/tech-crunch-rss-reader/favicon.ico": "928622b8329ccf1fb0295f9749689e8d118d6e04",
-    "/tech-crunch-rss-reader/index.html": "aba913301c42b47250ea6b388c9e589a633a6408",
-    "/tech-crunch-rss-reader/main-es2015.ff6d6d22a770ba9b0db1.js": "a95a32c018ad58ad53edaf5a902317938aef6808",
-    "/tech-crunch-rss-reader/main-es5.ff6d6d22a770ba9b0db1.js": "eded0c74e4bcb53e44352b7a1c140041031d4b36",
+    "/tech-crunch-rss-reader/index.html": "dcda8105c362a46588099499a51f7a288d6841a5",
+    "/tech-crunch-rss-reader/main-es2015.d266902099ddf9ecdc96.js": "17c7ac515c771653598e33883ec280d11cd01362",
+    "/tech-crunch-rss-reader/main-es5.d266902099ddf9ecdc96.js": "e27ccaa00f3db677cdb5a452274dc413bc9f0925",
     "/tech-crunch-rss-reader/manifest.webmanifest": "81c037934f2495fc8bdd3c5446b665cb86d5b722",
     "/tech-crunch-rss-reader/polyfills-es2015.2987770fde9daa1d8a2e.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
     "/tech-crunch-rss-reader/polyfills-es5.6696c533341b95a3d617.js": "6bff0c03e05bb347d213ad1b3674045eb892d189",
-    "/tech-crunch-rss-reader/runtime-es2015.edb2fcf2778e7bf1d426.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/tech-crunch-rss-reader/runtime-es5.edb2fcf2778e7bf1d426.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/tech-crunch-rss-reader/styles.c5712781c9fded4a9620.css": "14c671bb1f932d13be02e7b6bacc77e4cad4ca62"
+    "/tech-crunch-rss-reader/runtime-es2015.103ae6c285dba3a07b11.js": "07152213a3592e131d1cf0dc6def33de307c209a",
+    "/tech-crunch-rss-reader/runtime-es5.103ae6c285dba3a07b11.js": "6cdb683c1e4a85afedd71e1e939158f1d3f2e432",
+    "/tech-crunch-rss-reader/styles.fa2cfed30fb589dbd811.css": "a15b8b8b90b3fb7c0ff0999fcaf6823f205424cd"
   },
   "navigationUrls": [
     {
